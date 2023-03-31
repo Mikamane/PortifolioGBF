@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root {
-    --color: #29f222d7;
+    --color: #D97E4A;
 }
 
 * {
@@ -39,7 +39,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-    background: #111;
+    background: #303B40;
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -51,7 +51,7 @@ section {
 
 .btn {
     padding: .7rem 3rem;
-    background: #333;
+    background: #3e4d55;
     color: #fff;
     cursor: pointer;
     margin-top: 1rem;
@@ -88,7 +88,7 @@ header {
     z-index: 1000;
     height: 100%;
     width: 35rem;
-    background: #1a1a1a;
+    background: #1C2326;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,7 +128,7 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
-    background: #333;
+    background: #3e4d55;
     color: #fff;
     font-size: 2rem;
     border-radius: 5rem;
@@ -142,7 +142,7 @@ header .navbar ul li a:hover {
     position: fixed;
     top: 2rem;
     right: 2rem;
-    background: #333;
+    background: #3e4d55;
     color: #fff;
     cursor: pointer;
     font-size: 2.5rem;
@@ -213,7 +213,7 @@ header .navbar ul li a:hover {
 
 .about .row .counter .box {
     width: 20rem;
-    background: #222;
+    background: #22303a;
     text-align: center;
     padding: 2rem;
     margin: 2rem;
@@ -248,7 +248,7 @@ header .navbar ul li a:hover {
 
 .education .box-container .box span {
     font-size: 1.3rem;
-    background: #222;
+    background: #22303a;
     color: #fff;
     border-radius: 5rem;
     padding: .5rem 2.5rem;
@@ -330,22 +330,28 @@ header .navbar ul li a:hover {
 .contact .row form .box {
     padding: 1.5rem;
     margin: 1rem 0;
-    background: #3333;
+    background: #334958;
     color: #fff;
     text-transform: none;
     font-size: 1.7rem;
     width: 100%;
 }
 
-.contact .row form .box::placeholder {
+.contact .row form .box::placeholder, .message::placeholder {
     text-transform: capitalize;
+    color: #ffffff;
 }
 
 .contact .row form .message {
+    font-size: 1.7rem;
+    padding: 1.5rem;
     height: 10rem;
     width: 100%;
     resize: none;
+    background-color: #f18e54b6;
+    color: #fff;
 }
+
 
 .contact .row .content .title {
     text-transform: uppercase;
