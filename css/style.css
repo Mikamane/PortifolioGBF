@@ -213,7 +213,7 @@ header .navbar ul li a:hover {
 
 .about .row .counter .box {
     width: 20rem;
-    background: #22303a;
+    background: #1C2326;
     text-align: center;
     padding: 2rem;
     margin: 2rem;
@@ -248,7 +248,7 @@ header .navbar ul li a:hover {
 
 .education .box-container .box span {
     font-size: 1.3rem;
-    background: #22303a;
+    background: #1C2326;
     color: #fff;
     border-radius: 5rem;
     padding: .5rem 2.5rem;
@@ -330,7 +330,7 @@ header .navbar ul li a:hover {
 .contact .row form .box {
     padding: 1.5rem;
     margin: 1rem 0;
-    background: #334958;
+    background: #1C2326;
     color: #fff;
     text-transform: none;
     font-size: 1.7rem;
